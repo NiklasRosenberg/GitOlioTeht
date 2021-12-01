@@ -41,4 +41,9 @@ public void jarruta() {
 		 System.out.println("Polttoainetta tankissa: " + bensanMaara + " litraa");
 	 }
 	 
+	 public void tankkaa(int tankkaus) {
+		 
+		 bensanMaara = bensanMaara + tankkaus;
+	 }
+	 
 }
